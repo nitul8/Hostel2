@@ -7,8 +7,7 @@
 .hero {
   position: relative;
   width: 100%;
-  height: 100vh;
-  background-color: #eff4fd;
+  height: 16vh;
 }
 
 nav {
@@ -39,6 +38,28 @@ nav ul li a:hover {
   color: red;
 }
 
+nav .login_button {
+  position: relative;
+  background: transparent;
+  border-radius: 10%;
+  list-style: none;
+  color: #000;
+  display: inline-block;
+  font-weight: bold;
+}
+
+main {
+  background: fixed;
+  background-image: url("assets/Hostel-front.jpeg");
+  background-size: 100%;
+  border-radius: 2%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+main div {
+  height: 500px;
+}
 .contact {
   position: relative;
   width: 100%;
